@@ -40,7 +40,7 @@ body{
    
   }
   #title{
-    display: inline-block;
+    display: flex;
     color: #fff;/*EBEBD3, C5283D*/
     font-size: 55px;
     letter-spacing: 2px;
