@@ -1,8 +1,8 @@
 body{
     /* https://www.color-hex.com/color/d3d3d3 */
     background-color: #fff; /*#f6f6f6, EBEBD3, fafafa*/
-    font-family: Bungee Outline;
-    font-weight: 900;
+    font-family: sans-serif;
+    font-weight: 500;
   
     overflow: hidden;
     animation: blur 0.5s ease-out;
