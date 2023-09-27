@@ -1,18 +1,17 @@
+//SIDE NAVIGATION BAR
+function openNav() {
+    document.getElementById("mySidenav").style.width = "100%"; //(Here at 100% u can set width of the4 navigation bar)
 
-function myFunction(x) {
-    x.classList.toggle("change");
-    let menu = document.getElementById('menu');
-    if (menu.style.display != 'block') {
-        menu.style.display = 'block';
-        home.style.position = 'relative'
-        home.style.top = '15px'
-    }
-    else {
-        menu.style.display = 'none';
-    }
+    document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
 }
 
-/** code by webdevtrick ( https://webdevtrick.com ) **/
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+
+    document.body.style.backgroundColor = "white";
+}
+
+// WIDGET SLIDER
 $(function () {
     "use strict";
 
@@ -23,8 +22,8 @@ $(function () {
         sliderOlLi = sliderOl.find('.buttom-circles-list'),
         sliderFaRight = slider.find('> .fa:first-of-type'),
         sliderFaLeft = slider.find('> .fa:last-of-type'),
-        sliderTime = 1000,
-        sliderWait = 2000,
+        sliderTime = 500,  //(Here you can select in how much time a slider will appear)
+        sliderWait = 3000, //(You can select how much time a slider should wait)
         sliderSetInt,
         resumeAndPause;
 

@@ -15,33 +15,32 @@
 
 <body>
     <header>
-        <nav class="nav">
-            <div class="container" onclick="myFunction(this)">
-                <div class="bar1"></div>
-                <div class="bar2"></div>
-                <div class="bar3"></div>
-            </div>
-        </nav>
+        <!-- SIDE NAVIGATION BAR -->
+        <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="#">About</a>
+            <a href="#">Services</a>
+            <a href="#">Clients</a>
+            <a href="#">Contact</a>
+        </div>
 
+        <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+
+        <!-- LOGO + HEADING -->
         <div id="logo"></div>
         <h1>SYSTUMM.online</h1>
 
+        <!-- SEARCH BAR -->
         <form id="form" role="search">
             <input type="search" id="query" name="q" placeholder="Search..." aria-label="Search through site content">
         </form>
         <button>Go</button>
     </header>
-    <div id="media1"></div>
-    <div id="menu">
-        
-        <a href="" id="home">About us</a>
-        <a href="Contact/contact.html" id="home">Contact us</a>
-        <a href="" id="home">Offers and Discounts</a>
-        <a href="" id="home">Home4</a>
-        <a href="" id="home">Home5</a>
-        <a href="" id="home">Home6</a>
-    </div>
 
+    <!-- SMALL VIEW PORT - MENU + SEARCH BAR -->
+    <div id="media1"></div>
+
+    <!-- WIDGET SLIDER -->
     <div class="main">
         <div class="slider">
             <ul class="slider-parent">
@@ -65,24 +64,32 @@
         </div>
     </div>
 
+    <!-- MAIN CONTENT -->
     <section class="cont">
         <div class="box" id="item-2"><a href="Gutar Goo/gutargoo.html">SCIENTIFIC DISCUSSION<br><br>(Solar Systumm)</a>
         </div>
         <div class="box" id="item-3"><a href="Shop/shop.html">E-COMMERCE<br><br>(Eco Systumm)</a></div>
-        <div class="box" id="item-4"><a href="Study Material/studymaterial.html">STUDY MATERIAL<br><br>(Heavy Systumm)</a></div>
+        <div class="box" id="item-4"><a href="Study Material/studymaterial.html">STUDY MATERIAL<br><br>(Heavy
+                Systumm)</a></div>
         <div class="box" id="item-1"><a href="">COLLEGE CUTTOFFS<br><br>(Number Systumm)</a></div>
         <div class="box" id="item-5"><a href="">STORIES AND WALLPAPERS<br><br>(Systumm Matic)</a></div>
         <div class="box" id="item-6"><a href="">MEMES & TRENDS<br><br>(Online Systumm)</a></div>
     </section>
 
-    <script data-name="BMC-Widget" data-cfasync="false" src="https://cdnjs.buymeacoffee.com/1.0.0/widget.prod.min.js" data-id="bbbofficial" data-description="Support me on Buy me a coffee!" data-message="Thank you for visiting. Would you like to donate?" data-color="#40DCA5" data-position="Right" data-x_margin="18" data-y_margin="18"></script>
-    
-        <!-- TrustBox widget - Review Collector -->
-<div class="trustpilot-widget" data-locale="en-US" data-template-id="56278e9abfbbba0bdcd568bc" data-businessunit-id="64cf6061776bfed6d424ed03" data-style-height="52px" data-style-width="100%">
-    <a href="https://www.trustpilot.com/review/systumm.online" target="_blank" rel="noopener">Trustpilot</a>
-  </div>
-  <!-- End TrustBox widget -->
+    <!-- WOULD YOU LIKE TO DONATE -->
+    <script data-name="BMC-Widget" data-cfasync="false" src="https://cdnjs.buymeacoffee.com/1.0.0/widget.prod.min.js"
+        data-id="bbbofficial" data-description="Support me on Buy me a coffee!"
+        data-message="Thank you for visiting. Would you like to donate?" data-color="#40DCA5" data-position="Right"
+        data-x_margin="18" data-y_margin="18"></script>
 
+    <!-- TrustBox widget - Review Collector -->
+    <div class="trustpilot-widget" data-locale="en-US" data-template-id="56278e9abfbbba0bdcd568bc"
+        data-businessunit-id="64cf6061776bfed6d424ed03" data-style-height="52px" data-style-width="100%">
+        <a href="https://www.trustpilot.com/review/systumm.online" target="_blank" rel="noopener">Trustpilot</a>
+    </div>
+    <!-- End TrustBox widget -->
+
+    <!-- FOOTER FOR SMALL VIEW PORT DEVICES -->
     <div class="mobile">
         <br>
         <li><a href="">About us</a></li><br>
@@ -98,6 +105,7 @@
         <img src="img/pyment.jpeg" alt="GPay UPI Paytm Visa ">
     </div>
 
+    <!-- FOOTER FOR SIZEABLE VIEW PORT DEVICES -->
     <footer id="footer">
         <nav class="btr">
             <a href="">About us</a>
@@ -106,20 +114,23 @@
             <a href="">Terms of use</a>
             <a href="">FAQ</a>
         </nav>
+
         <section class="btr">
             <a href="">Disclaimer</a>
             <a href="">Sitemap</a>
             <a href="">404 page</a>
             <a href="">career/Jobs Page</a>
-
         </section>
+
         <aside class="btr">
             <a href="">Payment Modes Accepted</a>
             <img src="img/pyment.jpeg" alt="GPay UPI Paytm Visa ">
         </aside>
     </footer>
+
     <div class="right">© 2023 ‧ Systumm. All rights reserved.</div>
 
+    <!-- WIDGET SCRIPT -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="index.js"></script>
 </body>
